@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 import os
   
 # Setting up SQLlite database location  
-file_path = os.path.abspath(os.getcwd())+"/todo.db"
+file_path = os.path.abspath(os.getcwd())+"/database/todo.db"
   
 # Initiazed flask app
 app = Flask(__name__)
